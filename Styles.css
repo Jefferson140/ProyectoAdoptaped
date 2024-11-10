@@ -1,11 +1,11 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Encabezado */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -91,4 +91,7 @@ nav a:hover {
 
 .contact-button:hover {
     background-color: #FFC107;
+}
+footer{
+    text-align: center;
 }
