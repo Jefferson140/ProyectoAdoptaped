@@ -92,6 +92,93 @@ nav a:hover {
 .contact-button:hover {
     background-color: #FFC107;
 }
-.gatitos1{
-    back
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8e6e6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+.adoption-category {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos de la cuadrícula */
+.pet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 70px;
+    padding: 40px;
+}
+
+/* Estilos de las tarjetas */
+.pet-card {
+    display: flex;
+    align-items: center;
+    background-color: #e3f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+    gap: 15px;
+}
+
+.pet-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.pet-info {
+    text-align: left;
+}
+
+.pet-info h3 {
+    margin: 0;
+    color: #555;
+}
+
+.pet-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Estilos del footer */
+footer {
+    margin-top: 50px;
+    color: #fdf4f4;
+    font-size: 20px;
 }
