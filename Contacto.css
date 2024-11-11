@@ -92,3 +92,93 @@ nav a:hover {
 .contact-button:hover {
     background-color: #FFC107;
 }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8e6e6; /* Fondo similar al de la imagen */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #e3f0f0; /* Fondo del formulario */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.contact-info {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Aumenta el espacio entre los campos */
+}
+
+.contact-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px; /* Aumenta el padding para mayor espacio interno */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.contact-form button {
+    padding: 12px; /* Aumenta el padding del botón */
+    background-color: #66a8a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #549595;
+}
+
+footer {
+    margin-top: 40px;
+    color: #888;
+    font-size: 14px;
+}
