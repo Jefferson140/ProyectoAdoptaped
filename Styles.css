@@ -92,28 +92,16 @@ nav a:hover {
 .contact-button:hover {
     background-color: #FFC107;
 }
-<<<<<<< HEAD
 footer{
     text-align: center;
 }
-=======
-.gatitos1 {
-    width: 150px; /* Ajusta el tamaño que prefieras para Sky */
-    height: auto;
-}
 
-.gatitos2{
-    width: 120px; /* Ajusta el tamaño que prefieras para Draco */
-    height: auto;
+.gatito1 {
+    background-image: url('Img/Gatitos/gatito1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100px;
+    height: auto; 
+    padding: 10px; 
 }
-
-.gatitos3 {
-    width: 130px; /* Ajusta el tamaño que prefieras para Morgan */
-    height: auto;
-}
-
-.gatitos4 {
-    width: 140px; /* Ajusta el tamaño que prefieras para Becky */
-    height: auto;
-}
->>>>>>> 3d81a03 (creacion adopcion de gatos)
