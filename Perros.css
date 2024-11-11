@@ -1,0 +1,186 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D2E9E9;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #F8F6F4;
+}
+
+.login-button {
+    background-color: #D2E9E9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #E3F4F4;
+}
+
+
+.welcome-section {
+    background-image: url('Img/fondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.welcome-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.welcome-section h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    margin: 0 0 20px;
+}
+
+.contact-button {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background-color: #FFC107;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8e6e6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+.adoption-category {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos de la cuadrícula */
+.pet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 60px;
+    padding: 40px;
+}
+
+/* Estilos de las tarjetas */
+.pet-card {
+    display: flex;
+    align-items: center;
+    background-color: #e3f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+    gap: 15px;
+}
+
+.pet-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.pet-info {
+    text-align: left;
+}
+
+.pet-info h3 {
+    margin: 0;
+    color: #555;
+}
+
+.pet-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Estilos del footer */
+footer {
+    margin-top: 50px;
+    color: #fdf4f4;
+    font-size: 20px;
+}
+
+
