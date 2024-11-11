@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 .contact-button {
-    background-color: #FFD700;
+    background-color: #D2E9E9;
     color: black;
     border: none;
     padding: 15px 30px;
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .contact-button:hover {
-    background-color: #FFC107;
+    background-color: #E3F4F4;
 }
 footer{
     text-align: center;
