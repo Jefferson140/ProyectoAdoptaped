@@ -139,7 +139,7 @@ h2 {
 .pet-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 70px;
+    gap: 60px;
     padding: 40px;
 }
 
