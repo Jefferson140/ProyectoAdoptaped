@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #d8e6e6;
+    background-color: #E3F4F4;
     margin: 0;
     padding: 0;
 }
@@ -38,7 +38,7 @@ nav a:hover {
     color: #F8F6F4;
 }
 
-.login-button {
+.login {
     background-color: #D2E9E9;
     color: white;
     border: none;
@@ -48,12 +48,12 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.login-button:hover {
+.login:hover {
     background-color: #E3F4F4;
 }
 
 
-.welcome-section {
+.Seccion {
     background-image: url('Img/fondo.jpg'); 
     background-size: cover;
     background-position: center;
@@ -63,24 +63,24 @@ nav a:hover {
     color: white;
 }
 
-.welcome-content {
+.Bienvenidos {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px;
     border-radius: 10px;
     display: inline-block;
 }
 
-.welcome-section h1 {
+.Seccion h1 {
     font-size: 2.5em;
     margin: 0 0 10px;
 }
 
-.welcome-section p {
+.Seccion p {
     font-size: 1.2em;
     margin: 0 0 20px;
 }
 
-.contact-button {
+.Contacto {
     background-color: #D2E9E9;
     color: black;
     border: none;
@@ -91,9 +91,71 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.contact-button:hover {
+.Contacto:hover {
     background-color: #E3F4F4;
 }
 footer{
     text-align: center;
 }
+
+.sEstadisticas {
+    padding: 20px 35px;
+    
+}
+
+.Contenedor {
+    display: flex;
+    justify-content: center; 
+    gap: 2cm;
+    text-align: center;
+}
+
+.Estadistica {
+    
+    padding: 30px 50px;
+    
+}
+
+.Digito {
+    font-size: 1.5cm; 
+    font-weight: bold; 
+    color: black;
+    margin: 0;
+}
+
+.Texto {
+    font-size: 0.5cm; 
+    color: black;
+    margin: 0;
+}
+
+/* Estilo para la sección "Sobre Nosotros" */
+.SobreNosotros {
+    max-width: 1320px;
+    margin: 30px auto;
+    padding: 20px;
+    
+    border-radius: 12px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+.SobreNosotros h2 {
+    font-size: 1.4cm;
+    color: black;
+    text-align: center;
+    
+    font-family: 'Arial', sans-serif;
+}
+
+.SobreNosotros p {
+    padding: 20px;
+    color: black;
+    font-size: 0.5cm;
+    line-height: 1.6;
+    text-align: justify;
+    
+    font-family: 'Arial', sans-serif;
+}
+
+

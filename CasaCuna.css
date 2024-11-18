@@ -91,15 +91,15 @@ header {
     --celeste-claro: #D2E9E9
 }
 
-/* Colores de texto */
+
 .text-celeste {
-    color: var(--celeste-oscuro);
+    color: black;
 }
 
-/* Fondo y estilos */
 body {
     background-color: var(--gris-claro);
     font-family: Arial, sans-serif;
+    background-color: #E3F4F4;
 }
 
 footer{
