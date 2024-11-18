@@ -54,7 +54,7 @@ body {
 .contact-container {
     max-width: 600px;
     margin: 40px auto;
-    background-color: #e3f0f0; /* Fondo del formulario */
+    background-color: white; /* Fondo del formulario */
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
