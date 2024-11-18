@@ -27,48 +27,6 @@ nav a:hover {
     background-color: #E3F4F4;
 }
 
-
-.welcome-section {
-    background-image: url('Img/fondo.jpg'); 
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    text-align: center;
-    padding: 100px 20px;
-    color: white;
-}
-
-.welcome-content {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.welcome-section h1 {
-    font-size: 2.5em;
-    margin: 0 0 10px;
-}
-
-.welcome-section p {
-    font-size: 1.2em;
-    margin: 0 0 20px;
-}
-
-.contact-button {
-    background-color: #D2E9E9;
-    color: black;
-    border: none;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-size: 1em;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.contact-button:hover {
-    background-color: #E3F4F4;
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -94,4 +52,7 @@ h3 {
 }
 footer{
     text-align: center;
+}
+body{
+    background-color: #d8e6e6;
 }
